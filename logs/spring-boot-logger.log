@@ -1,0 +1,298 @@
+2019-01-09 16:31:09,449 INFO com.gagan.InterstellarAppApplication [main] Started Spring Boot application
+2019-01-09 16:31:09,980 INFO org.springframework.boot.StartupInfoLogger [main] Starting InterstellarAppApplication on TRANTOR239 with PID 8144 (D:\assignment\InterstellarApp\target\classes started by gaganpreet.singh in D:\assignment\InterstellarApp)
+2019-01-09 16:31:09,980 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2019-01-09 16:31:09,980 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-01-09 16:31:10,313 INFO org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@184cf7cf: startup date [Wed Jan 09 16:31:10 IST 2019]; root of context hierarchy
+2019-01-09 16:31:10,501 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2019-01-09 16:31:11,783 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:31:11,884 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:31:11,904 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [class org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$755c2ef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:31:11,974 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-01-09 16:31:12,012 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0c469f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:31:12,612 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat initialized with port(s): 8080 (http)
+2019-01-09 16:31:12,623 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service Tomcat
+2019-01-09 16:31:12,623 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-01-09 16:31:12,820 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2019-01-09 16:31:12,821 INFO org.springframework.boot.context.embedded.EmbeddedWebApplicationContext [localhost-startStop-1] Root WebApplicationContext: initialization completed in 2508 ms
+2019-01-09 16:31:13,078 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-09 16:31:13,078 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2019-01-09 16:31:13,078 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-09 16:31:13,078 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-09 16:31:13,078 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-09 16:31:13,078 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-09 16:31:15,774 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-09 16:31:15,785 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-09 16:31:15,865 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.0.11.Final}
+2019-01-09 16:31:15,865 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-01-09 16:31:15,865 INFO org.hibernate.cfg.Environment [main] HHH000021: Bytecode provider name : javassist
+2019-01-09 16:31:15,905 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-09 16:31:16,065 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-01-09 16:31:16,075 WARN org.hibernate.dialect.DerbyDialect [main] HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-01-09 16:31:16,535 WARN org.hibernate.boot.internal.SessionFactoryBuilderImpl$SessionFactoryOptionsStateStandardImpl [main] Unrecognized hbm2ddl_auto value : createorupdate.  Supported values include create, create-drop, update, and validate.  Ignoring
+2019-01-09 16:31:16,895 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 16:31:17,216 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-01-09 16:31:17,768 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@184cf7cf: startup date [Wed Jan 09 16:31:10 IST 2019]; root of context hierarchy
+2019-01-09 16:31:17,884 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/],methods=[GET]}" onto public java.lang.String com.gagan.controller.PlanetController.loginPage()
+2019-01-09 16:31:17,887 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/findPath],methods=[POST]}" onto public java.lang.String com.gagan.controller.PlanetController.findShortestPath(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2019-01-09 16:31:17,896 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/planet/{id}],methods=[GET]}" onto public com.gagan.model.PlanetVertex com.gagan.rest.PlanetApi.getNodeById(java.lang.String)
+2019-01-09 16:31:17,897 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/planet/{id}],methods=[DELETE]}" onto public void com.gagan.rest.PlanetApi.deleteNode(java.lang.String)
+2019-01-09 16:31:17,897 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/savePlanet],methods=[POST]}" onto public void com.gagan.rest.PlanetApi.createPlanetNode(com.gagan.model.PlanetVertex)
+2019-01-09 16:31:17,898 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/allPlanets],methods=[GET]}" onto public java.util.List<com.gagan.model.PlanetVertex> com.gagan.rest.PlanetApi.getAllPlanets()
+2019-01-09 16:31:17,901 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-09 16:31:17,902 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-09 16:31:17,970 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 16:31:17,970 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 16:31:18,028 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 16:31:18,752 INFO org.springframework.jmx.export.MBeanExporter [main] Registering beans for JMX exposure on startup
+2019-01-09 16:31:18,782 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-09 16:31:18,802 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler [http-nio-8080]
+2019-01-09 16:31:18,822 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2019-01-09 16:31:18,842 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat started on port(s): 8080 (http)
+2019-01-09 16:31:18,872 WARN org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver [main] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-01-09 16:31:19,290 WARN org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-01-09 16:31:19,290 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:interstellardb;create=true]
+2019-01-09 16:31:19,290 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001001: Connection properties: {user=root, password=****}
+2019-01-09 16:31:19,300 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001003: Autocommit mode: false
+2019-01-09 16:31:19,300 INFO org.hibernate.engine.jdbc.connections.internal.PooledConnections [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-01-09 16:31:19,310 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-01-09 16:31:19,310 WARN org.hibernate.dialect.DerbyDialect [main] HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-01-09 16:31:19,360 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000227: Running hbm2ddl schema export
+2019-01-09 16:31:20,468 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000230: Schema export complete
+2019-01-09 16:31:21,130 INFO com.gagan.util.ExcelReader [main] Workbook has 3 Sheets : 
+2019-01-09 16:31:21,130 INFO com.gagan.util.ExcelReader [main] Retrieving Sheets using Java 8 forEach with lambda
+2019-01-09 16:31:21,220 INFO com.gagan.util.ExcelReader [main] => Planet Names
+2019-01-09 16:31:21,220 INFO com.gagan.util.ExcelReader [main] => Routes
+2019-01-09 16:31:21,220 INFO com.gagan.util.ExcelReader [main] => Traffic
+2019-01-09 16:31:21,220 INFO com.gagan.util.ExcelReader [main] 0
+2019-01-09 16:31:21,220 INFO com.gagan.util.ExcelReader [main] 1
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 2
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 3
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 4
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 5
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 6
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 7
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 8
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:31:21,251 INFO com.gagan.util.ExcelReader [main] 9
+2019-01-09 16:31:21,252 INFO com.gagan.util.ExcelReader [main] 10
+2019-01-09 16:31:21,253 INFO com.gagan.util.ExcelReader [main] 11
+2019-01-09 16:31:21,253 INFO com.gagan.util.ExcelReader [main] 12
+2019-01-09 16:31:21,253 INFO com.gagan.util.ExcelReader [main] 13
+2019-01-09 16:31:21,253 INFO com.gagan.util.ExcelReader [main] 14
+2019-01-09 16:31:21,254 INFO com.gagan.util.ExcelReader [main] 15
+2019-01-09 16:31:21,254 INFO com.gagan.util.ExcelReader [main] 16
+2019-01-09 16:31:21,254 INFO com.gagan.util.ExcelReader [main] 17
+2019-01-09 16:31:21,254 INFO com.gagan.util.ExcelReader [main] 18
+2019-01-09 16:31:21,254 INFO com.gagan.util.ExcelReader [main] 19
+2019-01-09 16:31:21,254 INFO com.gagan.util.ExcelReader [main] 20
+2019-01-09 16:31:21,255 INFO com.gagan.util.ExcelReader [main] 21
+2019-01-09 16:31:21,255 INFO com.gagan.util.ExcelReader [main] 22
+2019-01-09 16:31:21,255 INFO com.gagan.util.ExcelReader [main] 23
+2019-01-09 16:31:21,256 INFO com.gagan.util.ExcelReader [main] 24
+2019-01-09 16:31:21,256 INFO com.gagan.util.ExcelReader [main] 25
+2019-01-09 16:31:21,256 INFO com.gagan.util.ExcelReader [main] 26
+2019-01-09 16:31:21,257 INFO com.gagan.util.ExcelReader [main] 27
+2019-01-09 16:31:21,257 INFO com.gagan.util.ExcelReader [main] 28
+2019-01-09 16:31:21,257 INFO com.gagan.util.ExcelReader [main] 29
+2019-01-09 16:31:21,257 INFO com.gagan.util.ExcelReader [main] 30
+2019-01-09 16:31:21,258 INFO com.gagan.util.ExcelReader [main] 31
+2019-01-09 16:31:21,258 INFO com.gagan.util.ExcelReader [main] 32
+2019-01-09 16:31:21,258 INFO com.gagan.util.ExcelReader [main] 33
+2019-01-09 16:31:21,258 INFO com.gagan.util.ExcelReader [main] 34
+2019-01-09 16:31:21,259 INFO com.gagan.util.ExcelReader [main] 35
+2019-01-09 16:31:21,259 INFO com.gagan.util.ExcelReader [main] 36
+2019-01-09 16:31:21,259 INFO com.gagan.util.ExcelReader [main] 37
+2019-01-09 16:31:21,260 INFO com.gagan.util.ExcelReader [main] 38
+2019-01-09 16:31:21,263 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,263 INFO com.gagan.util.ExcelReader [main] A
+2019-01-09 16:31:21,264 INFO com.gagan.util.ExcelReader [main] B
+2019-01-09 16:31:21,264 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,265 INFO com.gagan.util.ExcelReader [main] A
+2019-01-09 16:31:21,265 INFO com.gagan.util.ExcelReader [main] C
+2019-01-09 16:31:21,265 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,265 INFO com.gagan.util.ExcelReader [main] A
+2019-01-09 16:31:21,265 INFO com.gagan.util.ExcelReader [main] D
+2019-01-09 16:31:21,266 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,266 INFO com.gagan.util.ExcelReader [main] B
+2019-01-09 16:31:21,267 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:31:21,267 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,268 INFO com.gagan.util.ExcelReader [main] C
+2019-01-09 16:31:21,268 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:31:21,269 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,270 INFO com.gagan.util.ExcelReader [main] D
+2019-01-09 16:31:21,270 INFO com.gagan.util.ExcelReader [main] C
+2019-01-09 16:31:21,270 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,271 INFO com.gagan.util.ExcelReader [main] D
+2019-01-09 16:31:21,271 INFO com.gagan.util.ExcelReader [main] F
+2019-01-09 16:31:21,271 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,271 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:31:21,272 INFO com.gagan.util.ExcelReader [main] F
+2019-01-09 16:31:21,272 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,282 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:31:21,282 INFO com.gagan.util.ExcelReader [main] G
+2019-01-09 16:31:21,282 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,292 INFO com.gagan.util.ExcelReader [main] F
+2019-01-09 16:31:21,292 INFO com.gagan.util.ExcelReader [main] H
+2019-01-09 16:31:21,292 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:31:21,292 INFO com.gagan.util.ExcelReader [main] G
+2019-01-09 16:31:21,292 INFO com.gagan.util.ExcelReader [main] H
+2019-01-09 16:31:21,484 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001008: Cleaning up connection pool [jdbc:derby:interstellardb;create=true]
+2019-01-09 16:31:21,544 INFO org.springframework.boot.StartupInfoLogger [main] Started InterstellarAppApplication in 11.906 seconds (JVM running for 12.495)
+2019-01-09 16:32:29,101 INFO com.gagan.InterstellarAppApplication [main] Started Spring Boot application
+2019-01-09 16:32:29,633 INFO org.springframework.boot.StartupInfoLogger [main] Starting InterstellarAppApplication on TRANTOR239 with PID 22640 (D:\assignment\InterstellarApp\target\classes started by gaganpreet.singh in D:\assignment\InterstellarApp)
+2019-01-09 16:32:29,633 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2019-01-09 16:32:29,633 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-01-09 16:32:30,017 INFO org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43ee72e6: startup date [Wed Jan 09 16:32:30 IST 2019]; root of context hierarchy
+2019-01-09 16:32:30,157 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2019-01-09 16:32:31,431 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:32:31,572 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:32:31,592 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [class org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d26af7e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:32:31,652 INFO org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-01-09 16:32:31,692 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2dd332e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 16:32:32,152 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat initialized with port(s): 8080 (http)
+2019-01-09 16:32:32,172 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service Tomcat
+2019-01-09 16:32:32,172 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-01-09 16:32:32,312 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2019-01-09 16:32:32,312 INFO org.springframework.boot.context.embedded.EmbeddedWebApplicationContext [localhost-startStop-1] Root WebApplicationContext: initialization completed in 2295 ms
+2019-01-09 16:32:32,492 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-09 16:32:32,492 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2019-01-09 16:32:32,493 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-09 16:32:32,493 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-09 16:32:32,493 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-09 16:32:32,493 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-09 16:32:35,105 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-09 16:32:35,116 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-09 16:32:35,196 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.0.11.Final}
+2019-01-09 16:32:35,206 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-01-09 16:32:35,206 INFO org.hibernate.cfg.Environment [main] HHH000021: Bytecode provider name : javassist
+2019-01-09 16:32:35,246 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-09 16:32:35,416 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-01-09 16:32:35,416 WARN org.hibernate.dialect.DerbyDialect [main] HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-01-09 16:32:35,826 WARN org.hibernate.boot.internal.SessionFactoryBuilderImpl$SessionFactoryOptionsStateStandardImpl [main] Unrecognized hbm2ddl_auto value : createorupdate.  Supported values include create, create-drop, update, and validate.  Ignoring
+2019-01-09 16:32:36,156 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 16:32:36,447 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-01-09 16:32:36,939 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43ee72e6: startup date [Wed Jan 09 16:32:30 IST 2019]; root of context hierarchy
+2019-01-09 16:32:37,049 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/],methods=[GET]}" onto public java.lang.String com.gagan.controller.PlanetController.loginPage()
+2019-01-09 16:32:37,049 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/findPath],methods=[POST]}" onto public java.lang.String com.gagan.controller.PlanetController.findShortestPath(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2019-01-09 16:32:37,059 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/planet/{id}],methods=[DELETE]}" onto public void com.gagan.rest.PlanetApi.deleteNode(java.lang.String)
+2019-01-09 16:32:37,059 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/savePlanet],methods=[POST]}" onto public void com.gagan.rest.PlanetApi.createPlanetNode(com.gagan.model.PlanetVertex)
+2019-01-09 16:32:37,059 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/allPlanets],methods=[GET]}" onto public java.util.List<com.gagan.model.PlanetVertex> com.gagan.rest.PlanetApi.getAllPlanets()
+2019-01-09 16:32:37,059 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/planetApi/planet/{id}],methods=[GET]}" onto public com.gagan.model.PlanetVertex com.gagan.rest.PlanetApi.getNodeById(java.lang.String)
+2019-01-09 16:32:37,059 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-09 16:32:37,059 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-09 16:32:37,111 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 16:32:37,111 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 16:32:37,171 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-09 16:32:37,916 INFO org.springframework.jmx.export.MBeanExporter [main] Registering beans for JMX exposure on startup
+2019-01-09 16:32:37,946 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-09 16:32:37,956 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler [http-nio-8080]
+2019-01-09 16:32:37,966 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2019-01-09 16:32:37,986 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat started on port(s): 8080 (http)
+2019-01-09 16:32:38,006 WARN org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver [main] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2019-01-09 16:32:38,510 WARN org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-01-09 16:32:38,510 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:interstellardb;create=true]
+2019-01-09 16:32:38,510 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001001: Connection properties: {user=root, password=****}
+2019-01-09 16:32:38,510 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001003: Autocommit mode: false
+2019-01-09 16:32:38,520 INFO org.hibernate.engine.jdbc.connections.internal.PooledConnections [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-01-09 16:32:38,530 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-01-09 16:32:38,530 WARN org.hibernate.dialect.DerbyDialect [main] HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-01-09 16:32:38,573 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000227: Running hbm2ddl schema export
+2019-01-09 16:32:39,716 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000230: Schema export complete
+2019-01-09 16:32:40,266 INFO com.gagan.util.ExcelReader [main] Workbook has 3 Sheets : 
+2019-01-09 16:32:40,266 INFO com.gagan.util.ExcelReader [main] Retrieving Sheets using Java 8 forEach with lambda
+2019-01-09 16:32:40,346 INFO com.gagan.util.ExcelReader [main] => Planet Names
+2019-01-09 16:32:40,346 INFO com.gagan.util.ExcelReader [main] => Routes
+2019-01-09 16:32:40,346 INFO com.gagan.util.ExcelReader [main] => Traffic
+2019-01-09 16:32:40,346 INFO com.gagan.util.ExcelReader [main] 0
+2019-01-09 16:32:40,346 INFO com.gagan.util.ExcelReader [main] 1
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 2
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 3
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 4
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 5
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 6
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 7
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 8
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] Saved
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 9
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 10
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 11
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 12
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 13
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 14
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 15
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 16
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 17
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 18
+2019-01-09 16:32:40,376 INFO com.gagan.util.ExcelReader [main] 19
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 20
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 21
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 22
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 23
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 24
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 25
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 26
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 27
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 28
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 29
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 30
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 31
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 32
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 33
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 34
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 35
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 36
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 37
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] 38
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] A
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] B
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] A
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] C
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] A
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] D
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] B
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] C
+2019-01-09 16:32:40,386 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] D
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] C
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] D
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] F
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] F
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] E
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] G
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] F
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] H
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] ===================================
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] G
+2019-01-09 16:32:40,396 INFO com.gagan.util.ExcelReader [main] H
+2019-01-09 16:32:40,525 INFO org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl [main] HHH10001008: Cleaning up connection pool [jdbc:derby:interstellardb;create=true]
+2019-01-09 16:32:40,585 INFO org.springframework.boot.StartupInfoLogger [main] Started InterstellarAppApplication in 11.324 seconds (JVM running for 11.9)

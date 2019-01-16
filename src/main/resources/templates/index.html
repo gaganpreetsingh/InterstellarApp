@@ -1,0 +1,17 @@
+<html  lang="en" >
+<head>
+<meta charset="utf-8" />
+<title>Find shortest path</title>
+</head>
+<body>
+<form action="findPath" method="post" >
+<label for="name">Source Planet</label>
+<input type="text" name="source" placeholder="Source Planet"/>
+<label for="name">Destination Planet</label>
+<input type="text" name="destination" placeholder="Destination Planet"/>
+<input type="submit" value="Submit"/>
+</form>
+
+<span th:text="${result!=null} ? ${result} : ''"></span>
+</body>
+</html>
